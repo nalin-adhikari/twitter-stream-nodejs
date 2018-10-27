@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitter Stream</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <div id="tweets"></div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect('/'),
+            tweets = document.getElementById('tweets');
+        socket.on('tweet', function (data) {
+        tweets.innerHTML = tweets.innerHTML + '<br>' + data;
+        });
+    </script>
+    
+</body>
+</html>>

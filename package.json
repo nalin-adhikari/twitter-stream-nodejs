@@ -1,0 +1,25 @@
+{
+  "name": "twitter-stream-nodejs",
+  "version": "1.0.0",
+  "description": "Fetch twitter stream using nodejs and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "nodejs",
+    "stream",
+    "express",
+    "data"
+  ],
+  "author": "Nalin Adhikari <nalin.com.np>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1",
+    "twitter": "^1.7.1",
+    "twitter-stream-api": "^0.5.2"
+  }
+}

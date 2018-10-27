@@ -1,0 +1,11 @@
+// Fill all the values of below given keys from your twitter developer setting and remove all comment lines.
+// After you fill all the values, rename this file to config.json
+// Don't public your keys and secrets other wise you will regret later.
+// You'r welcome !!
+// Regards, Nalin Adhikari.
+{
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token_key": "",
+    "access_token_secret": ""
+}
